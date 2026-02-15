@@ -29,6 +29,10 @@
 
 #include <cusparse.h>
 
+#include <thrust/execution_policy.h>
+#include <thrust/reduce.h>
+#include <thrust/sort.h>
+
 #include <ATen/core/Tensor.h>
 #include <ATen/cuda/CUDAContext.h>
 #include <ATen/cuda/CUDAUtils.h>
